@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "packer@latest": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#packer",
+      "source": "devbox-search",
+      "version": "1.10.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5dmyqwf9nl2qfrq6k7klcfba3d5xxb86-packer-1.10.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5dmyqwf9nl2qfrq6k7klcfba3d5xxb86-packer-1.10.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1bhacvppl6j84r5mv5c4f3lfs39gvanf-packer-1.10.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1bhacvppl6j84r5mv5c4f3lfs39gvanf-packer-1.10.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nk26hfbwvp8xaz0dbrlxqmm9vwqy2p0g-packer-1.10.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nk26hfbwvp8xaz0dbrlxqmm9vwqy2p0g-packer-1.10.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zmbzpk1dwv73c5sl6xp3x3xbi7956hnq-packer-1.10.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zmbzpk1dwv73c5sl6xp3x3xbi7956hnq-packer-1.10.3"
+        }
+      }
+    }
+  }
+}
